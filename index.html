@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Countdown Screen -->
+    <div class="screen" id="countdownScreen">
+        <h1>Something Special Is Coming... ❤️</h1>
+        <p id="countdown">Loading...</p>
+    </div>
+    <!-- Opening Scene -->
+<div class="screen hidden" id="openingScreen">
+
+    <div class="openingGlow"></div>
+
+    <p class="openingSmall">Hey... wait a second ✨</p>
+
+    <h1 class="openingTitle">
+        Something Special<br>
+        Is Waiting For You ❤️
+    </h1>
+
+    <p class="openingSub">
+        Just a little surprise...
+    </p>
+
+</div>
+
+    <!-- Cat Surprise Screen -->
+    <div class="screen hidden" id="catScreen">
+    <img src="images/cat_surprise.png" alt="Cute Cat">
+    <h1>Heyy...! ❤️</h1>
+    <p>I have something special for you...</p>
+    <div class="catHeart" id="catHeart">❤️</div>
+    <div class="heartParticles" id="heartParticles"></div>
+    <p class="tapHint">Tap the heart... ✨</p>
+    <button id="openSurprise">OPEN SURPRISE ❤️</button>
+</div>
+
+<!-- Surprise Screen -->
+<div class="screen hidden" id="surpriseScreen">
+    <h1>You Found Your Surprise! 💝</h1>
+    <p>But wait... there's something waiting for you. ❤️</p>
+
+    <button id="watchVideo">WATCH YOUR SURPRISE 🎥</button>
+</div>
+
+<!-- Cinematic Birthday Scene -->
+<!-- Cinematic Birthday Story -->
+
+<div class="screen hidden" id="cinematicScreen">
+
+     <audio id="birthdayMusic" preload="auto">
+        <source src="music/Kashmir Main Tu Kanyakumari.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="floating-hearts">
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💗</span>
+    <span>❤️</span>
+    <span>💕</span>
+</div>
+
+<div class="stars">
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+</div>
+
+    <div class="storyScene" id="scene1">
+        <p class="hello">Hello Priya ❤️</p>
+    </div>
+
+    <div class="storyScene hidden" id="scene2">
+        <p>
+            सर्वात आधी तुला<br>
+            वाढदिवसाच्या खूप खूप खूप शुभेच्छा! ❤️
+        </p>
+
+        <span>
+            तुला तुझ्या आयुष्यातल्या<br>
+            सर्व इच्छा आणि सर्व आकांक्षा पूर्ण होवोत.<br>
+            तू खूप पुढे जाशील अशी मनापासून इच्छा आहे. ✨
+        </span>
+    </div>
+
+    <div class="storyScene hidden" id="scene3">
+        <p>
+            तू नेहमी अशीच हसत राहा... ❤️
+        </p>
+
+        <span>
+            कारण हसताना खूप छान दिसतेस.<br>
+            अशीच नेहमी हसत राहावीस. 🌸
+        </span>
+    </div>
+
+    <div class="storyScene hidden" id="scene4">
+        <p>
+            माझ्या आयुष्यात एकदम अचानक entry घेऊन<br>
+            खूपच जवळची आणि special मैत्रीण झालीस माझी. ❤️
+        </p>
+
+        <span>
+            आणि आपली मैत्री नेहमी अशीच राहू दे. ❤️
+        </span>
+    </div>
+
+    <div class="storyScene hidden" id="scene5">
+        <p>
+            तू तुझ्या आयुष्यात<br>
+            खूप उंच उंच शिखरं गाठावीस... ✨
+        </p>
+
+        <span>
+            आणि तुझ्या प्रत्येक स्वप्नाला<br>
+            एक सुंदर सुरुवात मिळावी.
+        </span>
+    </div>
+
+    <div class="storyScene hidden" id="scene6">
+        <p class="finalWish">
+            Wish You A Very Very Happy Birthday, Dear! ❤️
+        </p>
+
+        <span>
+            “Tum Jiyo Hazaro Saal...” 🎶
+        </span>
+
+        <h1>HAPPY BIRTHDAY, PRIYA ❤️</h1>
+    </div>
+
+</div>
+<!-- Final Personal Message -->
+
+<div class="screen hidden" id="finalScreen">
+
+    <div class="finalGlow"></div>
+
+    <p class="lastThing">One Last Thing... ❤️</p>
+
+    <p class="personalMessage">
+        Thank you for becoming such a special part of my life. ❤️
+    </p>
+
+    <p class="keepSmiling">
+        Keep smiling... always. 🌸
+    </p>
+
+    <button id="replaySurprise">REPLAY SURPRISE ↻</button>
+
+</div>
+
+<script src="script.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
